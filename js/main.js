@@ -1,7 +1,7 @@
 /* 
 	Marco Rodriguez -->
-  	06-07-12 -->
- 	Project 2 -->
+  	06-13-12 -->
+ 	Project 3 -->
 	VFW 1206 -- >
 */
 // Javascript file 
