@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Marco Rodriguez -->
+<!-- 06-07-12 -->
+<!-- Project 2 -->
+<!-- VFW 1206 -- >
+
+<!-- head starts -->	
+<head>
+	<!-- meta information -->
+	<meta charset="utf-8">  
+    <meta name="description" content="Gear Heads is an app dedicated to car enthusiasts from around the world." />  
+    <meta name="keywords" content="car enthusiasts, gearheads, mobile" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+
+<!-- title of my page -->        
+<title>Customer Information</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<!-- head ends here -->
+</head>
+<body>
+<!-- body content -->        
+	<h1>Gear Heads</h1>
+	<p>Gear Heads is an app dedicated to car enthusiasts from around the world.
+	</p>
+<!-- form -->
+	<a href="#" id="clear" class="bttn" >Cleared Stored Data</a>
+	<a href="#" id="displayLink" class="bttn" >Display Data</a>
+	<a href="addItem.html" id="addNew" style="display:none;">Add New Item</a>
+<br />
+<br />
+<form action="#" method="post" id="contactForm">
+<fieldset>
+	<legend>Account Information</legend>
+	<ul id="errors"></ul>
+		<ul>
+			<!-- textfields -->
+			<li><label for="fname">First Name:</label><input type="text" id="fname" class="input"  /></li>
+			<li><label for="lname">Last Name:</label><input type="text" id="lname" class="input"  /></li>
+			<li><label for="email">Email Address:</label><input type="email" id="email" placeholder="jon@google.com" class="input"  /></li>
+			<li><label for="date">Today's Date:</label><input type="date" id="date" min="05-30-2012" max="12-31-2012" placeholder="05-30-2012" class="input" /></li>
+       </ul>
+</fieldset>
+<fieldset>
+	<legend>Vehicle Information</legend>
+		 <ul>
+			<li><label for="car">Car:</label><input type="text" id="car" class="input"  /></li>
+  			<li><label for="make">Make:</label><input type="text" id="make" placeholder="ex: chevy, ford, etc." class="input" /></li>
+			<li><label for="caramount">Number of Vehicles: </label><input id="caramount" type="range" min="0" max="5"></li>
+		</ul>
+		<ul>
+			<li id="fastest"><label for="fastest">Best ET Time <small><em>(1/4 mile time)</em></small></label><br /></li>
+			<li id="hp"><label for="horses"><br />Horse Power <small><em>(Dyno Time)</em></small></label><br /></li>
+			<li id="adder"><label for="adder"><br />Any Power Adders  <small><br /><em>(NOS, Turbo, Supercharged)</em></small></label><br /></li>
+		</ul>
+		<ul class="checkbox">
+			<li>What Transmission?</li>
+			<!-- radio buttons -->
+			<li><input type="radio" checked value="Auto" id="auto" name="tranny" /><label for="auto">Auto</label></li>
+			<li><input type="radio" value="Manual" id="manual" name="tranny" /><label for="manual">Manual</label></li>
+		</ul>
+		<ul>
+			<!-- check boxes -->			
+			<li>How did you hear about us?</li>
+			<li><input type="checkbox" id="ltech" value="Yes" class="checkbox" /><label for="ltech">LS1Tech?</label></li>
+		</ul>
+		<ul>
+			<li><label for="comments">Like to share any further information:</label><textarea id="comments"></textarea></li>
+		</ul>	
+</fieldset>
+	<!-- submit button -->
+		<input type="submit" value="Save Contact" id="submit" class="button"/>
+</form>
+<!-- form ends -->
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+<!-- body ends -->
+</html>

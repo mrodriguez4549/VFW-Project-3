@@ -1,0 +1,113 @@
+/* 
+	Marco Rodriguez
+	Project 2
+	06-07-12
+	VFW 1206
+*/	
+
+/* css style sheet */
+/* index style css */
+body {
+	background-color: #fff;
+	font-family: Arial, "Helvetica", sans-serif;
+}
+/* h1 tag styling */
+h1 {
+	color: #fff;
+	display: block;
+	background-color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	border-radius: 10px;
+}
+/* style for my paragraph tag */
+p {
+	font-size: 14px;
+	line-height: 140%;
+	color: #999;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+/* h2 styles */
+h2 {
+	color: #999;
+	padding-left: 10px;
+}
+/* styles for my anchor link tag */
+a {
+	font-size: 12px;
+	color: #fff;
+	background-color: red;
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+/* hover state style */
+a:hover {
+	color: #000;
+}
+#errors ul {
+	font-weight: normal/bold;
+	font-size: red;
+}
+
+/* form styles start here */
+
+
+/* fieldset styles */
+fieldset {
+		width: auto;
+		font-family: helvetica;
+		font-size: 12px;
+		color:  #c7310e;
+		border-color: #F0F0F0;
+		line-height: 140%;
+		
+	}
+/* legend tag styles */
+legend {
+	font-size: 16px;
+	font-style: bold;
+	background-color: #F0F0F0;
+	padding: 5px;
+}
+/* listed items styles */
+li {
+	display: block;
+	line-height: 140%;
+}
+/* textarea styles */ 
+textarea {
+	background-color: #F0F0F0;
+}
+
+/* submit button class styles */
+.button {
+    border: none;
+   	background-color: #000;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 12px;
+}
+/* clearn data & display data buttons styles */
+.bttn {
+    border: none;
+   	background-color: red;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 12px;
+}
+/* input text fields class styles */
+.input {
+	border-radius: 3px;
+    background: #F0F0F0;
+}
+/* input text fields class hover */
+.input:hover {
+    border-radius: 5px;
+    background: #FFF;
+}
